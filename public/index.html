@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="cw1.js" "text/javascript"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>M26COM</title>
+    <h1 id="title"><b>Intelligent Information Retrieval</b></h1>
+    <div id="navbar">
+        <ul>
+            <li><a class="active" href="index.html">CW01</a></li>
+        </ul>
+    </div>
+</head>
+<body>
+    <div id="list">
+        <h1>Click a button to make an RESTful API request</h1>
+        <button id="user_button" class="btn" onclick="getUsers()">Users</button>
+        <button id="posts_button" class="btn1" onclick="getPosts()">Posts</button>
+        <button id="comments_button" class="btn2" onclick="getComments()">Comments</button>
+        <p id="finduserp"><b>Find User By Username</b></p>
+        <input type="search" name="finduser" id="finduser">
+        <button id="submit" onclick="findUser()">Find</button>
+        <ol id="datalist"></ol>
+        <h1>Fill in the form to enter data into the database</h1>
+            <p>First Name</p>
+            <input type="text" name="firstname" id="firstname">
+            <p>Last Name</p>
+            <input type="text" name="lastname" id="lastname">
+            <p>Email</p>
+            <input type="email" name="email" id="email" >
+            <p>Username</p>
+            <input type="text" name="username" id="username">
+            <p>Password</p>
+            <input type="password" name="password" id="password">
+            <p></p>
+            <button id="submit" onclick="sendPost()">Submit</button>
+    </div>
+</body> 
+</html>
