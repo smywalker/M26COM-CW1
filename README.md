@@ -14,7 +14,6 @@ Nodejs Modules:
     *"express": "^4.16.2",
     *"mongoose": "^4.13.1"
 
-## Credits
-Created By Luke Smy
+
 ## License
 ISC
